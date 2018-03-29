@@ -11,12 +11,12 @@ import DetailsPage from './Home/containers/DetailsPage';
 class App extends Component {
   render() {
     return (
-    	<Switch>
-			<Route exact path="/" component={HomePage}/>
-			<Route path="/details/:title" component={DetailsPage}/>
-			<Redirect to="/" />
-		</Switch>
-		);
+        <Switch>
+            <Route exact path="/" component={HomePage}/>
+            <Route path="/details/:title" component={DetailsPage}/>
+            <Redirect to="/" />
+        </Switch>
+        );
   }
 }
 
